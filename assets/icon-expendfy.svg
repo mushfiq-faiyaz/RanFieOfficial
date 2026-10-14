@@ -1,0 +1,24 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="14" fill="url(#ex-bg)"/>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="13.5" stroke="url(#ex-border)" stroke-opacity="0.3"/>
+  <!-- Elegant spending pulse ring and clean card/balance glyph -->
+  <circle cx="24" cy="24" r="12" stroke="url(#ex-ring-grad)" stroke-width="2" stroke-dasharray="4 2"/>
+  <path d="M19 25C21 21 24 20 27 23C29 25 31 22 33 18" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="19" cy="25" r="2.5" fill="#34D399"/>
+  <circle cx="33" cy="18" r="2.5" fill="#6EE7B7"/>
+  <path d="M17 31H31" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-opacity="0.6"/>
+  <defs>
+    <linearGradient id="ex-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06281E"/>
+      <stop offset="1" stop-color="#04140F"/>
+    </linearGradient>
+    <linearGradient id="ex-border" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="ex-ring-grad" x1="12" y1="12" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#059669" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+</svg>

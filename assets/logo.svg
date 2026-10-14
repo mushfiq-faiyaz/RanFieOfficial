@@ -1,0 +1,15 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="40" height="40" rx="12" fill="url(#rf-logo-bg)" />
+  <path d="M12 11C12 9.89543 12.8954 9 14 9H21C24.866 9 28 12.134 28 16C28 19.3496 25.6493 22.1487 22.5 22.8464L27.65 30.05C28.18 30.79 27.65 31.8 26.74 31.8H22.75C22.15 31.8 21.6 31.48 21.3 30.95L17 23.5H16.5V30.5C16.5 31.22 15.92 31.8 15.2 31.8H13.3C12.58 31.8 12 31.22 12 30.5V11ZM16.5 13.5V19H20.8C22.5 19 23.8 17.65 23.8 16C23.8 14.35 22.5 13.5 20.8 13.5H16.5Z" fill="url(#rf-logo-fg)"/>
+  <circle cx="21" cy="16" r="1.5" fill="#FFFFFF" fill-opacity="0.85"/>
+  <defs>
+    <linearGradient id="rf-logo-bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D3250" />
+      <stop offset="1" stop-color="#0E1017" />
+    </linearGradient>
+    <linearGradient id="rf-logo-fg" x1="12" y1="9" x2="28" y2="31.8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#94A3B8" />
+    </linearGradient>
+  </defs>
+</svg>

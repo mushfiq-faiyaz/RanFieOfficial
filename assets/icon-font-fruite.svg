@@ -1,0 +1,23 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="14" fill="url(#ff-bg)"/>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="13.5" stroke="url(#ff-border)" stroke-opacity="0.35"/>
+  <!-- Elegant sculptural typographic glyph 'f' with organic curves -->
+  <path d="M26 13C23 13 21 14.8 21 18.5V23H17C16.4477 23 16 23.4477 16 24V26C16 26.5523 16.4477 27 17 27H21V36C21 36.5523 21.4477 37 22 37H25C25.5523 37 26 36.5523 26 36V27H31C31.5523 27 32 26.5523 32 26V24C32 23.4477 31.5523 23 31 23H26V18.5C26 17.5 26.6 16.8 27.8 16.8H31C31.5523 16.8 32 16.3523 32 15.8V13.8C32 13.3 31.5 13 31 13H26Z" fill="url(#ff-glyph)"/>
+  <!-- Citrus/fruit organic botanical node -->
+  <circle cx="33" cy="14" r="3" fill="#FB923C"/>
+  <circle cx="34" cy="13" r="1" fill="#FEF08A"/>
+  <defs>
+    <linearGradient id="ff-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D1507"/>
+      <stop offset="1" stop-color="#140A04"/>
+    </linearGradient>
+    <linearGradient id="ff-border" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB923C"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="ff-glyph" x1="16" y1="13" x2="32" y2="37" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FED7AA"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RanFie Inc. — Smart Apps and AI Tools</title>
+  <meta name="description" content="RanFie Inc. crafts calm, purpose-built apps and AI tools for creators, thinkers, and modern enterprises.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Font Optimization -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;500;600;650;700&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Ambient Light Sphere (Hero gentle animation & breathing mesh) -->
+  <div class="ambient-glow-wrapper" aria-hidden="true">
+    <div class="ambient-orb orb-primary"></div>
+    <div class="ambient-orb orb-secondary"></div>
+    <div class="ambient-orb orb-tertiary"></div>
+  </div>
+  <div class="mouse-spotlight" aria-hidden="true"></div>
+
+  <!-- =========================================================================
+       Navigation Header (Frosted Floating Island)
+       ========================================================================= -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <nav class="nav-wrapper" aria-label="Main Navigation">
+        <!-- Brand Link -->
+        <a href="#top" class="brand-link" aria-label="RanFie Inc. Home">
+          <div class="brand-icon">
+            <img src="assets/logo.svg" alt="RanFie Inc. Logo" width="32" height="32">
+          </div>
+          <div class="brand-name">
+            <span>RanFie</span>
+            <span class="inc">Inc.</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#why" class="nav-link">Why RanFie</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Nav Actions: Theme Toggle & CTA -->
+        <div class="nav-actions">
+          <!-- Small Light/Day Toggle -->
+          <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle light or dark theme" title="Toggle theme">
+            <!-- Moon icon (active in dark mode) -->
+            <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <!-- Sun icon (active in light mode) -->
+            <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </button>
+
+          <a href="#contact" class="btn-nav">Get in touch</a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobileMenuToggle" class="mobile-menu-toggle" aria-label="Open mobile menu" aria-expanded="false">
+            <div class="hamburger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobileNavDrawer" class="mobile-nav-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <a href="#products" class="mobile-nav-link">
+      <span>Products</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </a>
+    <a href="#why" class="mobile-nav-link">
+      <span>Why RanFie</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </a>
+    <a href="#about" class="mobile-nav-link">
+      <span>About</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </a>
+    <a href="#contact" class="mobile-nav-link">
+      <span>Contact</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </a>
+  </div>
+
+  <main id="top">
+    <!-- =======================================================================
+         Hero Section (Big Confident Line & Calm Ambient Presence)
+         ======================================================================= -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <!-- Status pill -->
+          <div class="hero-pill-badge reveal-on-scroll">
+            <span class="pulse-indicator"></span>
+            <span>RanFie Inc. · Software &amp; AI Ecosystem</span>
+          </div>
+
+          <!-- Confident Headline -->
+          <h1 class="hero-title reveal-on-scroll delay-1">
+            Software crafted with quiet intelligence.
+          </h1>
+
+          <!-- Clean Subtitle -->
+          <p class="hero-description reveal-on-scroll delay-2">
+            We build focused applications and private AI tools for creators, thinkers, and modern businesses. Clean design, zero noise, and technology that simply gets out of your way.
+          </p>
+
+          <!-- Dual Hero Actions -->
+          <div class="hero-actions reveal-on-scroll delay-3">
+            <a href="#products" class="btn-primary">
+              <span>Explore Products</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+            <a href="#why" class="btn-secondary">
+              <span>Our Philosophy</span>
+            </a>
+          </div>
+
+          <!-- Studio Highlights -->
+          <div class="hero-footer-stats reveal-on-scroll delay-4">
+            <div class="stat-item">
+              <strong>7</strong>
+              <span>Dedicated Tools</span>
+            </div>
+            <div class="stat-item">
+              <strong>100%</strong>
+              <span>Independent Craft</span>
+            </div>
+            <div class="stat-item">
+              <strong>Private</strong>
+              <span>By Default</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         Products Section ("All products matter equally, company is star")
+         ======================================================================= -->
+    <section id="products" class="products-section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-label">
+            <span class="dot"></span>
+            <span>The Product Ecosystem</span>
+          </div>
+          <h2>Tools built with singular purpose.</h2>
+          <p>
+            Every product at RanFie Inc. receives equal dedication. No secondary tools, no forgotten utilities—just seven carefully tuned instruments for your daily work.
+          </p>
+        </div>
+
+        <div class="product-filters reveal-on-scroll">
+          <button class="filter-pill active" data-filter="all">All Products (7)</button>
+          <button class="filter-pill" data-filter="creative">Creative &amp; Studio</button>
+          <button class="filter-pill" data-filter="finance">Finance &amp; Commerce</button>
+          <button class="filter-pill" data-filter="intelligence">AI &amp; Trajectory</button>
+        </div>
+
+        <div class="products-grid">
+          <!-- 1. Fresh Texfy -->
+          <article class="product-card reveal-on-scroll delay-1" data-category="creative">
+            <div class="card-top">
+              <div class="card-icon-wrapper">
+                <img src="assets/icon-fresh-texfy.svg" alt="Fresh Texfy Icon" width="48" height="48">
+              </div>
+              <span class="card-badge">Design Editor</span>
+            </div>
+            <div class="card-body">
+              <h3 class="product-title">Fresh Texfy</h3>
+              <p class="product-description">
+                A fluid, distraction-free design editor engineered for rapid visual composition and vector creativity.
+              </p>
+            </div>
+            <a href="#contact" class="card-action" data-product-id="fresh-texfy" aria-label="Explore Fresh Texfy">
+              <span>View details</span>
+              <svg class="action-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <!-- 2. RoaFy -->
+          <article class="product-card reveal-on-scroll delay-2" data-category="intelligence">
+            <div class="card-top">
+              <div class="card-icon-wrapper">
+                <img src="assets/icon-roafy.svg" alt="RoaFy Icon" width="48" height="48">
+              </div>
+              <span class="card-badge">Roadmap &amp; Social</span>
+            </div>
+            <div class="card-body">
+              <h3 class="product-title">RoaFy</h3>
+              <p class="product-description">
+                Plan your trajectories, document milestones, and share your building journey with like-minded creators.
+              </p>
+            </div>
+            <a href="#contact" class="card-action" data-product-id="roafy" aria-label="Explore RoaFy">
+              <span>View details</span>
+              <svg class="action-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <!-- 3. ExpendFy -->
+          <article class="product-card reveal-on-scroll delay-3" data-category="finance">
+            <div class="card-top">
+              <div class="card-icon-wrapper">
+                <img src="assets/icon-expendfy.svg" alt="ExpendFy Icon" width="48" height="48">
+              </div>
+              <span class="card-badge">Personal Finance</span>
+            </div>
+            <div class="card-body">
+              <h3 class="product-title">ExpendFy</h3>
+              <p class="product-description">
+                Effortless, private expense tracking designed to bring calm and clarity to your personal spending.
+              </p>
+            </div>
+            <a href="#contact" class="card-action" data-product-id="expendfy" aria-label="Explore ExpendFy">
+              <span>View details</span>
+              <svg class="action-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <!-- 4. ExpendFy Business -->
+          <article class="product-card reveal-on-scroll delay-4" data-category="finance">
+            <div class="card-top">
+              <div class="card-icon-wrapper">
+                <img src="assets/icon-expendfy-business.svg" alt="ExpendFy Business Icon" width="48" height="48">
+              </div>
+              <span class="card-badge">Shop Dashboard</span>
+            </div>
+            <div class="card-body">
+              <h3 class="product-title">ExpendFy Business</h3>
+              <p class="product-description">
+                An all-in-one financial dashboard and sales tracker built specifically for modern independent shop owners.
+              </p>
+            </div>
+            <a href="#contact" class="card-action" data-product-id="expendfy-business" aria-label="Explore ExpendFy Business">
+              <span>View details</span>
+              <svg class="action-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <!-- 5. PidiFie -->
+          <article class="product-card reveal-on-scroll delay-5" data-category="creative">
+            <div class="card-top">
+              <div class="card-icon-wrapper">
+                <img src="assets/icon-pidifie.svg" alt="PidiFie Icon" width="48" height="48">
+              </div>
+              <span class="card-badge">PDF Studio</span>
+            </div>
+            <div class="card-body">
+              <h3 class="product-title">PidiFie</h3>
+              <p class="product-description">
+                A feather-light, lightning-fast PDF reader and editor that turns document workflows into pure breeze.
+              </p>
+            </div>
+            <a href="#contact" class="card-action" data-product-id="pidifie" aria-label="Explore PidiFie">
+              <span>View details</span>
+              <svg class="action-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <!-- 6. Font Fruite -->
+          <article class="product-card reveal-on-scroll delay-6" data-category="creative">
+            <div class="card-top">
+              <div class="card-icon-wrapper">
+                <img src="assets/icon-font-fruite.svg" alt="Font Fruite Icon" width="48" height="48">
+              </div>
+              <span class="card-badge">Typography</span>
+            </div>
+            <div class="card-body">
+              <h3 class="product-title">Font Fruite</h3>
+              <p class="product-description">
+                An organic typography playground to discover, test, and pair expressive typefaces in real time.
+              </p>
+            </div>
+            <a href="#contact" class="card-action" data-product-id="font-fruite" aria-label="Explore Font Fruite">
+              <span>View details</span>
+              <svg class="action-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+
+          <!-- 7. RanFie RAG Chatbots -->
+          <article class="product-card reveal-on-scroll delay-7" data-category="intelligence">
+            <div class="card-top">
+              <div class="card-icon-wrapper">
+                <img src="assets/icon-rag-chatbots.svg" alt="RanFie RAG Chatbots Icon" width="48" height="48">
+              </div>
+              <span class="card-badge">AI Intelligence</span>
+            </div>
+            <div class="card-body">
+              <h3 class="product-title">RanFie RAG Chatbots</h3>
+              <p class="product-description">
+                Private, enterprise-grade AI assistants trained directly on your business's proprietary documents.
+              </p>
+            </div>
+            <a href="#contact" class="card-action" data-product-id="rag-chatbots" aria-label="Explore RanFie RAG Chatbots">
+              <span>View details</span>
+              <svg class="action-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         Why RanFie Section (Calm Core Principles)
+         ======================================================================= -->
+    <section id="why" class="why-section">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <div class="section-label">
+            <span class="dot"></span>
+            <span>Why RanFie</span>
+          </div>
+          <h2>Quiet software for noisy times.</h2>
+          <p>
+            We build tools that respect your attention span, protect your privacy, and elevate your craft.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <!-- Pillar 1 -->
+          <div class="why-card reveal-on-scroll delay-1">
+            <div class="why-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+              </svg>
+            </div>
+            <h3>Quiet Intelligence</h3>
+            <p>
+              AI should feel like second nature, not a disruptive gimmick. Our tools quietly assist you behind the scenes without demanding attention or cluttering your canvas.
+            </p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="why-card reveal-on-scroll delay-2">
+            <div class="why-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3>Pure Utility, Zero Bloat</h3>
+            <p>
+              We measure our success by how quickly you accomplish your goal, not by how many minutes we trap your attention. Fast load times, lightweight memory, instant results.
+            </p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="why-card reveal-on-scroll delay-3">
+            <div class="why-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <h3>Data Sovereignty &amp; Privacy</h3>
+            <p>
+              Your documents, creative vectors, and financial ledgers stay strictly yours. We do not sell data to ad brokers or train public models on your proprietary information.
+            </p>
+          </div>
+
+          <!-- Pillar 4 -->
+          <div class="why-card reveal-on-scroll delay-4">
+            <div class="why-icon-bubble">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                <line x1="15" y1="9" x2="15.01" y2="9"></line>
+              </svg>
+            </div>
+            <h3>Consistent Craftsmanship</h3>
+            <p>
+              From smooth bezier curves to tactile button responses, every interaction is calibrated with restraint. Software that feels comfortable to use all day long.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         About Section (The Company is the Star)
+         ======================================================================= -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-card-wrapper reveal-on-scroll">
+          <div class="about-layout">
+            <div class="about-main">
+              <div class="section-label">
+                <span class="dot"></span>
+                <span>About RanFie</span>
+              </div>
+              <h2>Built with care. Designed to endure.</h2>
+              <p>
+                RanFie Inc. is an independent software studio founded on a clear belief: modern digital tools should feel calm, capable, and enduring.
+              </p>
+              <p>
+                We build smart software and focused AI applications that restore clarity and velocity to everyday work. From an independent artist composing typography in Font Fruite to an enterprise querying knowledge bases with RanFie RAG Chatbots, every product we ship is crafted with equal pride and quiet precision.
+              </p>
+            </div>
+
+            <div class="about-highlights-grid">
+              <div class="highlight-box">
+                <div class="highlight-number">7</div>
+                <div class="highlight-label">Unified Applications</div>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-number">100%</div>
+                <div class="highlight-label">Independent Studio</div>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-number">Zero</div>
+                <div class="highlight-label">Invasive Trackers</div>
+              </div>
+              <div class="highlight-box">
+                <div class="highlight-number">Always</div>
+                <div class="highlight-label">Human-Centric Focus</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         Contact Section (Clean, Simple, Direct)
+         ======================================================================= -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-card reveal-on-scroll">
+          <div class="section-label">
+            <span class="dot"></span>
+            <span>Get in Touch</span>
+          </div>
+          <h2>Let's build something calm.</h2>
+          <p class="contact-subtext">
+            Have questions about our apps, want to deploy RanFie RAG Chatbots for your organization, or simply want to talk design? We'd love to hear from you.
+          </p>
+
+          <!-- 1-Click Copy Email Pill -->
+          <div class="email-badge-container">
+            <button id="copyEmailBtn" class="email-copy-pill" data-original-label="hello@ranfie.com" title="Click to copy email">
+              <svg class="copy-indicator-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span id="emailAddressText">hello@ranfie.com</span>
+            </button>
+          </div>
+
+          <!-- Clean Contact Form -->
+          <form id="ranfieContactForm" class="contact-form" autocomplete="off">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Your Name</label>
+                <input type="text" id="contactName" class="form-input" placeholder="e.g. Alex Morgan" required>
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Your Email</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="alex@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="productInterestSelect">Topic / Product of Interest</label>
+              <select id="productInterestSelect" class="form-select">
+                <option value="General Inquiry">General Inquiry &amp; Hello</option>
+                <option value="Fresh Texfy">Fresh Texfy (Design Editor)</option>
+                <option value="RoaFy">RoaFy (Roadmap &amp; Social)</option>
+                <option value="ExpendFy">ExpendFy (Personal Finance)</option>
+                <option value="ExpendFy Business">ExpendFy Business (Shop Owners)</option>
+                <option value="PidiFie">PidiFie (PDF Reader &amp; Editor)</option>
+                <option value="Font Fruite">Font Fruite (Typography)</option>
+                <option value="RanFie RAG Chatbots">RanFie RAG Chatbots (AI Solutions)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMessage">How can we help?</label>
+              <textarea id="contactMessage" class="form-textarea" placeholder="Tell us about your project, inquiry, or question..." required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit-btn">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+
+            <!-- Friendly Interactive Success Feedback -->
+            <div id="formFeedback" class="form-feedback" role="alert">
+              <strong>Thank you for reaching out.</strong>
+              <p>We've received your note and will get back to you shortly.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       Product Quick Preview Modal
+       ========================================================================= -->
+  <div id="productModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-icon">
+          <img id="modalIcon" src="assets/icon-fresh-texfy.svg" alt="Product icon">
+        </div>
+        <div class="modal-title-group">
+          <h3 id="modalTitle">Fresh Texfy</h3>
+          <span id="modalCategory" class="modal-category">Design &amp; Vector Composition</span>
+        </div>
+      </div>
+
+      <p id="modalDescription" class="modal-description">
+        A fluid, distraction-free design editor engineered for rapid visual composition and vector creativity.
+      </p>
+
+      <div id="modalFeaturesList" class="modal-features-list">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="modal-actions">
+        <a id="modalContactLink" href="#contact" class="btn-primary">
+          <span>Inquire about this tool</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       Footer (Minimal, Refined, Balanced)
+       ========================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-title">
+            <img src="assets/logo.svg" alt="RanFie Inc. Logo" width="24" height="24">
+            <span>RanFie Inc.</span>
+          </div>
+          <p class="footer-brand-desc">
+            Independent software studio building calm, purpose-built apps and private AI systems for modern workflows.
+          </p>
+        </div>
+
+        <div class="footer-nav-groups">
+          <div class="footer-group">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#contact" data-product-id="fresh-texfy">Fresh Texfy</a></li>
+              <li><a href="#contact" data-product-id="roafy">RoaFy</a></li>
+              <li><a href="#contact" data-product-id="expendfy">ExpendFy</a></li>
+              <li><a href="#contact" data-product-id="expendfy-business">ExpendFy Business</a></li>
+              <li><a href="#contact" data-product-id="pidifie">PidiFie</a></li>
+              <li><a href="#contact" data-product-id="font-fruite">Font Fruite</a></li>
+              <li><a href="#contact" data-product-id="rag-chatbots">RanFie RAG Chatbots</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-group">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#products">Suite</a></li>
+              <li><a href="#why">Why RanFie</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-group">
+            <h4>Inquiries</h4>
+            <ul>
+              <li><a href="mailto:hello@ranfie.com">hello@ranfie.com</a></li>
+              <li><a href="#contact">Enterprise RAG Setup</a></li>
+              <li><a href="#contact">Press &amp; Media</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; 2026 RanFie Inc. All rights reserved.
+        </div>
+        <div class="footer-status">
+          <span class="status-dot"></span>
+          <span>All systems operational</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>

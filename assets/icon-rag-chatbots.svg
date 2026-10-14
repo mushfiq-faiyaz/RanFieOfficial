@@ -1,0 +1,30 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="14" fill="url(#rag-bg)"/>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="13.5" stroke="url(#rag-border)" stroke-opacity="0.35"/>
+  <!-- Semantic neural mesh & business document intelligence -->
+  <circle cx="24" cy="24" r="7" fill="url(#rag-core)" fill-opacity="0.3"/>
+  <circle cx="24" cy="24" r="4.5" fill="#818CF8"/>
+  <!-- Document nodes connected into central intelligence -->
+  <path d="M14 16L20 21M34 16L28 21M14 32L20 27M34 32L28 27" stroke="#A5B4FC" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Orbiting knowledge nodes -->
+  <rect x="11" y="13" width="6" height="6" rx="2" fill="#6366F1"/>
+  <rect x="31" y="13" width="6" height="6" rx="2" fill="#38BDF8"/>
+  <rect x="11" y="29" width="6" height="6" rx="2" fill="#818CF8"/>
+  <rect x="31" y="29" width="6" height="6" rx="2" fill="#C084FC"/>
+  <!-- AI Sparkle pulse -->
+  <circle cx="24" cy="24" r="1.5" fill="#FFFFFF"/>
+  <defs>
+    <linearGradient id="rag-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121530"/>
+      <stop offset="1" stop-color="#080A1A"/>
+    </linearGradient>
+    <linearGradient id="rag-border" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="rag-core" x1="17" y1="17" x2="31" y2="31" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A5B4FC"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+</svg>

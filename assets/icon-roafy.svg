@@ -1,0 +1,26 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="14" fill="url(#rf-bg)"/>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="13.5" stroke="url(#rf-border)" stroke-opacity="0.3"/>
+  <!-- Trajectory line and milestone nodes -->
+  <path d="M14 33C17 26 21 27 25 21C29 15 32 15 34 13" stroke="url(#rf-path-grad)" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="14" cy="33" r="3.5" fill="#3B82F6" stroke="#93C5FD" stroke-width="1.5"/>
+  <circle cx="25" cy="21" r="3.5" fill="#6366F1" stroke="#C4B5FD" stroke-width="1.5"/>
+  <circle cx="34" cy="13" r="4.5" fill="#06B6D4" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Social beacon ray -->
+  <path d="M30 11C32 9 36 9 38 11M38 15C40 17 40 19 39 21" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.7"/>
+  <defs>
+    <linearGradient id="rf-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#090E17"/>
+    </linearGradient>
+    <linearGradient id="rf-border" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="rf-path-grad" x1="14" y1="33" x2="34" y2="13" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+  </defs>
+</svg>

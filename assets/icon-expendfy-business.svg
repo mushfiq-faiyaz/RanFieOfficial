@@ -1,0 +1,28 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="14" fill="url(#exb-bg)"/>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="13.5" stroke="url(#exb-border)" stroke-opacity="0.35"/>
+  <!-- Modern Shop roof / awning architecture & metrics -->
+  <path d="M13 19L24 13L35 19H13Z" fill="url(#exb-gold)" fill-opacity="0.9"/>
+  <!-- Columns / Shop front -->
+  <rect x="15" y="21" width="3.5" height="11" rx="1.5" fill="#FBBF24" fill-opacity="0.8"/>
+  <rect x="22.25" y="21" width="3.5" height="11" rx="1.5" fill="#FBBF24" fill-opacity="0.8"/>
+  <rect x="29.5" y="21" width="3.5" height="11" rx="1.5" fill="#FBBF24" fill-opacity="0.8"/>
+  <!-- Growth trend bar overlay -->
+  <path d="M12 34H36" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+  <path d="M25 28L30 23L34 26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="34" cy="26" r="2" fill="#FDE68A"/>
+  <defs>
+    <linearGradient id="exb-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#261A07"/>
+      <stop offset="1" stop-color="#140E04"/>
+    </linearGradient>
+    <linearGradient id="exb-border" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="exb-gold" x1="13" y1="13" x2="35" y2="19" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+</svg>
